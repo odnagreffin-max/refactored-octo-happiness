@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cientistas Negros que Mudaram o Mundo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: #fff;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            background-color: #e2e8f0;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .card-content h3 {
+            font-size: 1.4rem;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-content .area {
+            display: inline-block;
+            background-color: #e2e8f0;
+            color: #475569;
+            padding: 0.25rem 0.7rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .card-content p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #1e293b;
+            color: #94a3b8;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cientistas Negros na História e na Atualidade</h1>
+        <p>Conheça as mentes brilhantes que revolucionaram a ciência, a tecnologia, a engenharia e a matemática.</p>
+    </header>
+
+    <div class="container">
+        <main class="gallery">
+            
+            <div class="card">
+                <img src="https://via.placeholder.com/400x350" alt="Katherine Johnson">
+                <div class="card-content">
+                    <h3>Katherine Johnson</h3>
+                    <span class="area">Matemática / NASA</span>
+                    <p>Calculou as trajetórias de voo que levaram os primeiros americanos ao espaço e à Lua. Sua história inspirou o filme "Estrelas Além do Tempo".</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/400x350" alt="Sônia Guimarães">
+                <div class="card-content">
+                    <h3>Sônia Guimarães</h3>
+                    <span class="area">Física / Eletrônica</span>
+                    <p>Primeira mulher negra doutora em Física no Brasil e primeira professora negra do ITA (Instituto Tecnológico de Aeronáutica). Especialista em semicondutores.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/400x350" alt="Dr. Charles Drew">
+                <div class="card-content">
+                    <h3>Dr. Charles Drew</h3>
+                    <span class="area">Medicina</span>
+                    <p>Cirurgião e pesquisador que revolucionou a medicina ao desenvolver técnicas para o armazenamento de plasma sanguíneo, criando os primeiros bancos de sangue em larga escala.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/400x350" alt="Mae Jemison">
+                <div class="card-content">
+                    <h3>Mae Jemison</h3>
+                    <span class="area">Astronáutica / Engenharia</span>
+                    <p>Médica, engenheira e a primeira mulher negra a viajar para o espaço, a bordo do ônibus espacial Endeavour, em 1992.</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Galeria de Cientistas Negros. Feito com orgulho e respeito.</p>
+    </footer>
+
+</body>
+</html>
